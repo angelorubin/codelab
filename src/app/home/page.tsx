@@ -20,12 +20,12 @@ export default function Home() {
           <span className={`${space_grotesk.className} text-white text-3xl font-medium sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl`}>Lab</span>
         </div>
 
-        <div className='flex flex-col items-center justify-center mb-5'>
+        <div className='flex flex-col items-center justify-center mb-8'>
           <input className={`${inter.className}text-white xs: w-11/12 sm:w-11/12 md:w-3/4 lg:w-3/4 xl:w-3/4 2xl:3/4 bg-gray-700 rounded p-2`} placeholder='Pesquisar no bing' />
         </div>
       </div>
 
-      <div className="flex flex-col items-center bg-gray-800 m-h-3/4 p-5 gap-5">
+      <div className="flex flex-col items-center bg-gray-800 h-screen p-5 gap-5">
         <div className='flex flex-col w-full sm:w-full md:w-3/4 lg:w-3/4 xl:w-3/4 2xl:3/4 gap-4 border-2 rounded-lg p-5 hover:border-primary bg-gray-800'>
           <div className='flex'>
             <div className='flex flex-1'>
